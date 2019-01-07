@@ -40,7 +40,7 @@
 	2. GCP has a more robust environment for k8s.
 	3. GCP has excellent documentation.
 
-	> **GCP** also provides a **cloud console** which is essentially a terminal instance connected to the VPC. this provides a **kubectl** that is directly connected to the production environment.
+> **GCP** also provides a **cloud console** which is essentially a terminal instance connected to the VPC. this provides a **kubectl** that is directly connected to the production environment.
 
 #### Lesson 223
 
@@ -57,7 +57,7 @@
 	3. Click the **Sync account** button and verify the **multi-k8s** repo is listed in the dashboard.
 	4. Select the **slider** on the left to enable builds for the repo.
 
-	> I had to log out of Travis and back in before the **multi-k8s** repo was listed in the dashboard.
+> I had to log out of Travis and back in before the **multi-k8s** repo was listed in the dashboard.
 	
 #### Lesson 225
 
