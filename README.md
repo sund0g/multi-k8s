@@ -44,5 +44,7 @@
 
 #### Lesson 223
 
-* To begin the process of migration the app to a **production environment**, create the **GitHub reaository**,
-* 
+* To begin the process of migration the app to a **production environment**, create the **multi-k8s** repository.
+
+> Can do this either vie the web UI or the commandline. I opted for the Web UI.
+
