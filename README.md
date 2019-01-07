@@ -30,7 +30,7 @@
 	8. Set **Number of Forwarding Rules** to **1**.
 	9. Set **Network Traffic Processed** to **100MB**.
 
-	The estimate should be **~ $92.00/month**. To keep costs as low as possible, complete this section in **less than 24 hours**.
+	The estimate should be around **$92.00/month**. To keep costs as low as possible, complete this section in **less than 24 hours**.
 
 #### Lesson 222
 
@@ -46,5 +46,19 @@
 
 * To begin the process of migration the app to a **production environment**, create the **multi-k8s** repository.
 
-> Can do this either vie the web UI or the commandline. I opted for the Web UI.
+> Can do this either via the web UI or the command line. I opted for the Web UI. If doing from the command line, may need to refer to the video for details.
+
+#### Lesson 224
+
+* To connect **Travis CI** with the **multi-k8s** repo,
+
+	1. Navigate to **[Travis CI](https://travis-ci.org/)**
+	2. Go to **Profile | Settings**
+	3. Click the **Sync account** button and verify the **multi-k8s** repo is listed in the dashboard.
+	4. Select the **slider** on the left to enable builds for the repo.
+
+	> I had to log out of Travis and back in before the **multi-k8s** repo was listed in the dashboard.
+	
+#### Lesson 225
+
 
