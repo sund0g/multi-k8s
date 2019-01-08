@@ -7,7 +7,7 @@
 
 #### Lesson 221
 
-* The steps to promoting the **complex** application to a **production** deployment consists of the following steps,
+* Promoting the **complex** application to a **production** deployment consists of the following steps,
 
 	1. Create a **GitHub repo**
 	2. Connect the repo to **Travis CI**
@@ -15,9 +15,9 @@
 	4. Enable **billing** for the project
 	5. Add **deployment scripts** to the repo.
 
-	> Unlike **AWS** there is no **free** tier with **GCP** so there will be a minimal charge for this part of the course.
-	> 
-	> This is why all the non-GCP tasks are being completed before the GCP project is created.
+> Unlike **AWS** there is no **free** tier with **GCP** so there will be a minimal charge for this part of the course.
+>
+> This is why all the non-GCP tasks are being completed before the GCP project is created.
 
 * The **[GCP Pricing Calculator](https://cloud.google.com/products/calculator/)** can be used to estimate the costs to be incurred as follows,
 	1. Select the **Kubernetes Engine** at the top of the page.
@@ -60,5 +60,36 @@
 > I had to log out of Travis and back in before the **multi-k8s** repo was listed in the dashboard.
 	
 #### Lesson 225
+
+* How to get free [Google Cloud Credits](https://console.cloud.google.com/freetrial/signup/0) if this is the first time working with **GCP**. (Not valid for existing accounts).
+
+#### Lesson 226
+
+> **IMPORTANT: This is where the Google Cloud project is created, thus the beginning of incurring charges.** Do not create the project until ready to complete the remaining lessons in this section in as short time as possible.
+
+* To create the project,
+
+	1. Navigate to the **[Google Cloud Console](https://console.cloud.google.com)**
+	2. Select the **project selector** dropdown (at the top left).
+	3. Select the "New Project" button on the top right of the messagebox.
+	4. Enter **"multi-k8s"** as the **project name**
+	5. Click **Create**. It may take a few seconds to create the project.
+
+#### Lesson 227
+
+* To link a billing account,
+
+	1. Select the **multi-k8s** project from the **project selector** dropdown.
+	2. Select **Billing** from the **Navigation menu** (top left).
+
+		> The following steps can be skipped if the **billing account** has been previously configured.
+		
+	3. Click **Link a billing account**
+	4. Follow the **wizard** steps to create an account.
+	5. Set the account for the **multi-k8s** project.
+
+	This should result is the dashboard showing the project linked to billing account.
+	
+#### Lesson 228
 
 
