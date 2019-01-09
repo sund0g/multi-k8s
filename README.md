@@ -67,7 +67,7 @@
 
 > **IMPORTANT: This is where the Google Cloud project is created, thus the beginning of incurring charges.** Do not create the project until ready to complete the remaining lessons in this section in as short time as possible.
 
-* To create the project,
+* To create the **project**,
 
 	1. Navigate to the **[Google Cloud Console](https://console.cloud.google.com)**
 	2. Select the **project selector** dropdown (at the top left).
@@ -77,7 +77,7 @@
 
 #### Lesson 227
 
-* To link a billing account,
+* To link a **billing account**,
 
 	1. Select the **multi-k8s** project from the **project selector** dropdown.
 	2. Select **Billing** from the **Navigation menu** (top left).
@@ -92,4 +92,11 @@
 	
 #### Lesson 228
 
+* To create a new **k8s Cluster**,
 
+	1. Scroll down the **navigation menu** to the **Compute** section
+	2. Select **Kubernetes Engine**
+		
+		> If an enable billing message returns, try refreshing the browser window. If that doesn't work, try to link the billing account again.
+
+#### Lesson 229
